@@ -14,6 +14,6 @@
 Variáveis
 let - funciona apenas dentro do bloco, ou seja, não tem um escopo global
 var - funmciona dentro e fora do bloco, ou seja, tem um escopo global
-const - funcoina dentro e fora mas quando se altera o valor da variável, ocorre um erro
+const - funcoina dentro e fora mas quando se altera o valor da variável, ocorre um erroa
  */
 
