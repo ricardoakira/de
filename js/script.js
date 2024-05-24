@@ -1,12 +1,19 @@
-document.write("Está é a primeira impressão da tela!")
-console.log("ola");
+// alert("")
+// abre uma caixa de aviso
+// alert("Olá mundo")
 
-var nome="fiap"
-console.log(nome);
+// document.write
+// aparece o texto na página
+// document.write("olá mundo")
 
-let nome2="teste"
-console.log(nome2);
+// console.log
+// aparece o texto dentro do console
+// console.log("ola mundo")
 
-const nome3="usuario"
-console.log(nome3);
+/*
+Variáveis
+let - funciona apenas dentro do bloco, ou seja, não tem um escopo global
+var - funmciona dentro e fora do bloco, ou seja, tem um escopo global
+const - funcoina dentro e fora mas quando se altera o valor da variável, ocorre um erro
+ */
 
