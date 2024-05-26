@@ -314,11 +314,11 @@ D) 089.52
 // }
 
 //4)
-// let num = 105
-// let num1 = 20
-// let num2 = 60
-// let num3 = 106
-// let num4 = 110
+// // let num = 105
+// // let num1 = 20
+// // let num2 = 60
+// // let num3 = 106
+// // let num4 = 110
 // if(num1 > num){
 //     document.write(num1 + " é maior que " + num)
 // }else{
