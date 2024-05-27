@@ -90,6 +90,7 @@
 // enquanto cont for menor que 10, ocorrera um aumento de +1 no cont e sera mostrado no console: passagem0 ate 9
 
 // do while
+
 // let cont = 0
 // do{
 //     console.log("Passagem"+ cont)
@@ -100,3 +101,21 @@
 // caso seja while(cont == 10), sera executado apenas uma vez, pois o do sempre sera executado pelo menos uma vez
 // caso seja while(cont >= 1), entrara em loop infinito
 // caso seja while(cont < 10), sera executado ate a passagem9
+
+// * Funções *
+
+// function nomeFuncao(arg1, arg2){
+//     return arg1 + arg2
+// }
+// console.log(nomeFuncao(5,4));
+
+// function avisar(){
+//     alert("ola")
+// }
+// let caixa= prompt("digite 1")
+// if(caixa == 1){
+//     avisar()
+// }else{
+//     alert("erro")
+// }
+

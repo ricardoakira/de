@@ -7,5 +7,18 @@
 </head>
 <body>
     <script type="text/javascript" src="./js/pdf5.js"></script>
+
+    <h1 id="titulo">Exemplo por ID</h1>
+
+    Nome: <input type="text" name="" id="idNome">
+    <button onclick="mudar()">Clique Aqui</button>
+    <script>
+        
+
+        function mudar(){
+            let novo = document.getElementById("idNome")
+            document.getElementById("titulo").innerHTML = novo.value          
+        }
+    </script>
 </body>
 </html>
