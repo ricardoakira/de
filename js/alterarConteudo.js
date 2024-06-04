@@ -8,3 +8,14 @@ title.innerHTML = "Este é o texto alterado"
 let subtitle = document.querySelector(".subtitle");
 subtitle.textContent = "Testando o textContent"
 // igual ao innerHTML
+
+function mudar(){
+    subtitle.textContent = "novo subtitulo"
+}
+
+let teste = prompt()
+if(teste == "ola"){
+    mudar()
+}else{
+    alert("texto nao alterado")
+}
