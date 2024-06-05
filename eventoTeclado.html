@@ -7,9 +7,20 @@
 </head>
 <body>
 
-    <label for="">Digite um texto:</label>
-    <input type="text" id="idTexto"><br>
-    <p>Resposta: <span id="res"></span></p>
+    <label>Digite um texto: </label>
+    <input type="text" id="idTexto">
+    <p>Resposta: <span id="resposta"></span></p>
+
+    <label for="idBarra">Escala: </label>
+    <input type="range" id="idBarra">
+    <span id="idValor">50</span>
+
+    <form action="eventoTeclado.html" method="post" id="idForm">
+        <label for="idNome">Nome:</label>
+        <input type="text" id="idNome" autocomplete="off">
+        <input type ="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
 
     <script src="./js/eventoTeclado.js"></script>
 </body>
