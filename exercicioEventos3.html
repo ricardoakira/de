@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercícios de fixação</h1>
+    <h2>Eventos de formulário (4)</h2>
+    <ul>
+        <li>focus = para colocar o fundo da caixa de tedto quando está em foco</li>
+        <li>blur = volta ao transparente quando sai do foco </li>
+        <li>change</li>
+        <li>submit</li>
+    </ul>
+    
+    <h2>Focus e Blur</h2>
+    <label for="">digite seu nome:</label>
+    <input type="text" id="idNome">
+
+    <style>
+        #idNome{
+            padding: 0.5em; text-align: center; font-size: 0.9em;
+        }
+    </style>
+
+    <h2>Submit (com focus e blur)</h2>
+    
+    <form action="exercicioEventos3.html", method="post", id="idForm">
+        <label for="idUsername">Nome:</label>
+        <input type="text" id="idUsername">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+    
+
+    <h2>Change</h2>
+    <label for="">Escala:</label>
+    <input type="range" id="idBarra">
+    <span id="idValor">50</span>
+
+    <script src="exercicioEventos3.js"></script>
+</body>
+</html>

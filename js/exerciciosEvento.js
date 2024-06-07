@@ -6,6 +6,7 @@ botao.addEventListener("dblclick", double)
 botao.addEventListener("contextmenu", direito)
 botao.addEventListener("mousedown", pressionar)
 botao.addEventListener("mouseup", soltar)
+botao.addEventListener("mousemove", mover)
 function colocar(){
     botao.style.backgroundColor = "green"
     botao.textContent = "entrou"
@@ -35,9 +36,19 @@ function soltar(){
     botao.textContent = "soltando"
 }
 
+function mover(event){
+    let x = event.clientX
+    let y = event.clientY
+    let res = document.querySelector("span")
+    res.textContent = "Posição X: "+x+ "| Posição Y: " +y
+}
+
 let desativar = document.querySelector("#idDesativar")
 desativar.addEventListener("click", desative)
 function desative(){
     botao.removeEventListener("mouseenter", colocar)
     
 }
+
+
+
